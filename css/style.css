@@ -7,3 +7,22 @@
     --gmail-text:rgba(255, 255, 255, 0.60);
     --background-text:#F5F4FA;
 }
+body{
+    font-family:Raleway;
+}
+.header{        
+    font-family: var(--header-text);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.78px;
+}
+.footer{
+    font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.3;
+        letter-spacing: 0.78px;
+}
