@@ -108,7 +108,7 @@ body{
     letter-spacing: 0.78px;
 }
 .footer-item{
-    color: var(--background-text)
+    color: var(--background-text);
     
         font-size: 14px;
         font-weight: 400;
@@ -117,7 +117,7 @@ body{
         letter-spacing: 0.42px;
 }
 .footer-item{
-    color: var(--number-text)
+    color: var(--number-text);
     
         font-size: 14px;
         font-weight: 400;
@@ -126,7 +126,7 @@ body{
         letter-spacing: 0.42px;
 }
 .geroy-title{
-color: var(--background-text)
+color: var(--background-text);
 
     text-align: center;
     font-size: 16px;
@@ -135,17 +135,8 @@ color: var(--background-text)
     /* 162.5% */
     letter-spacing: 0.48px;
 }
-.geroy-item{
-    color: var(--background-text)
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.6;
-        /* 162.5% */
-        letter-spacing: 0.48px;
-}
 .geroy-text{
-    color: var(--number-text)
+    color: var(--number-text);
     
         font-size: 16px;
         font-weight: 400;
@@ -154,10 +145,46 @@ color: var(--background-text)
         letter-spacing: 0.48px;
 }
 .header-item{
-    color: var(--header-text)
+
+color: var(--header-text);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+}
+.geroy-item>{
+color: var(--background-color)
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+/* 162.5% */
+letter-spacing: 0.48px;
+}
+.zams-list>li:nth-child(1) {
+    color: #2196F3;
+}
+.gero-title{
+    color: var(--happy-text);
     
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1;
-        letter-spacing: 0.28px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2;
+        /* 200% */
+        letter-spacing: 1.08px;
+}
+.gero-text{
+    color: var(--number-text);
+    
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.8;
+        /* 187.5% */
+        letter-spacing: 0.48px;
 }
