@@ -181,9 +181,7 @@ letter-spacing: 0.42px;
   /* 162.5% */
   letter-spacing: 0.48px;
 }
-.zams-list > li:nth-child(1) {
-  color: #2196f3;
-}
+
 .gero-title {
   color: var(--happy-text);
 
