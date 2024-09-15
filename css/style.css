@@ -88,9 +88,13 @@ text-transform: uppercase;
   line-height: 1.16;
   letter-spacing: 1.08px;
 }
-.conteiner{
-  outline: 1px solid red
-  width: 1000px;
+.container {
+  outline: 1px solid red;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 .comands-title {
   color: var(--background-color);
