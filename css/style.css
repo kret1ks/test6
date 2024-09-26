@@ -11,6 +11,10 @@
 body {
   font-family: "Roboto";
 }
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-logo {
   color: var(--header-text);
   font-family: "Raleway";
@@ -44,6 +48,8 @@ body {
 }
 .geroy {
   background-color: var(--background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .geroy-title {
   color: var(--title-color);
@@ -122,6 +128,8 @@ text-transform: uppercase;
 }
 .footer{
     background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     font-family: "Raleway";
