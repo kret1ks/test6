@@ -23,12 +23,18 @@ body {
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
+
+.navigation-list{
+
+
+}
 .header-color {
   color: var(--logo-color);
 }
 .navigation-link {
   color: var(--happy-text);
   font-size: 14px;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
