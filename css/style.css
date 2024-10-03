@@ -23,18 +23,27 @@ body {
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
-
-.navigation-list{
-
-
-}
 .header-color {
   color: var(--logo-color);
+}
+.display-link{
+  display: flex;
+  gap: 93px;
+}
+.navigation-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 .navigation-link {
   color: var(--happy-text);
   font-size: 14px;
-
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
@@ -58,8 +67,8 @@ body {
   padding-bottom: 94px;
 }
 .geroy-title {
-  color: var(--title-color);
-
+color: var(--title-color);
+align-items: center;
 text-align: center;
 font-size: 44px;
 font-weight: 900;
@@ -70,11 +79,19 @@ text-transform: uppercase;
 .geroy-button {
   color: var(--background-text);
   background-color: #2196f3;
-  text-align: center;
+  align-items: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.96px;
+}
+.perevag-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 270px;
+  gap: 10px;
 }
 .perevag-caption {
   color: var(--background-color);
