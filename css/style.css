@@ -27,18 +27,16 @@ body {
   color: var(--logo-color);
 }
 .display-link{
-  display: flex;
-  gap: 93px;
+display: flex;
+align-items: center;
 }
 .navigation-list{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  align-items: center;
+display: flex;
+gap: 50px;
+margin-right: 344px;
 }
 .header-list{
   display: flex;
-  flex-wrap: wrap;
   gap: 50px;
 }
 .navigation-link {
@@ -61,20 +59,32 @@ body {
 .header-link:hover {
   color: var(--header-text);
 }
+
+
+
+
+
+
+
+
 .geroy {
-  background-color: var(--background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  background-color: var(--footer-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 .geroy-title {
-color: var(--title-color);
-align-items: center;
-text-align: center;
-font-size: 44px;
-font-weight: 900;
-line-height: 1.36; 
-letter-spacing: 2.64px;
-text-transform: uppercase;
+  color: var(--main-color);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .geroy-button {
   color: var(--background-text);
