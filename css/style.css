@@ -228,7 +228,6 @@ letter-spacing: 0.42px;
 
 
 
-
 /* portfolio           portfolio             portfolio */ */
 
 
@@ -278,10 +277,14 @@ letter-spacing: 0.42px;
 
 
 
-
-
-
-
+.gero-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.gero-box{
+  padding: 20px  24px;
+}
 .geroy-title {
   color: var(--background-text);
   text-align: center;
@@ -289,6 +292,7 @@ letter-spacing: 0.42px;
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.48px;
+  margin-bottom: 4px;
 }
 .geroy-text {
   color: var(--number-text);
@@ -305,7 +309,10 @@ letter-spacing: 0.42px;
   font-weight: 500;
   line-height: 1.62x;
   /* 162.5% */
+  outline: 1px solid red;
   letter-spacing: 0.48px;
+  flex-basis: calc((100% - 60%) /3 );
+  
 }
 
 .gero-title {
