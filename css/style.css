@@ -95,6 +95,9 @@ gap: 50px;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.96px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
 } 
 
 
@@ -171,6 +174,9 @@ gap: 50px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.comands-item{
+  border-radius: 0px 0px 4px 4px;
+}
 .comands-title {
   color: var(--text-color);
   text-align: center;
@@ -183,6 +189,8 @@ gap: 50px;
 .comands-box{
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 .comands-subtitle{
 color: var(--happy-text);
@@ -192,6 +200,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
+margin-bottom: 10px;
+
 }
 .comands-text{
 color: var(--number-text);
@@ -228,6 +238,7 @@ color: var(--header-text);
   line-height: 1.38;
   letter-spacing: 0.78px;
   display: inline-block;
+  margin-bottom: 20px;
 }
 .footer-color{
     color: var(--title-color);
@@ -252,9 +263,10 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
-
 }
-
+.footer-adres{
+  font-style: normal;
+}
 
 
 
