@@ -282,7 +282,7 @@ letter-spacing: 0.42px;
 
 .card{
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 94px; 
 }
 .button-list{
   display: flex;
@@ -331,7 +331,6 @@ letter-spacing: 0.42px;
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.48px;
-  margin-bottom: 4px;
 }
 .geroy-text {
   color: var(--number-text);
