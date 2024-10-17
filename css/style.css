@@ -113,6 +113,18 @@ gap: 50px;
    display: flex;
    gap: 30px;
 }
+.perevag-item::before{
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  margin-bottom: 30px;
+  background-image: url(../img/antenna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .perevag-caption {
   color: var(--text-color);
   font-size: 14px;
