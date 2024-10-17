@@ -281,9 +281,8 @@ letter-spacing: 0.42px;
 
 
 .card{
-    padding-top: 94px;
-    padding-bottom: 94px;
-    display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .button-list{
   display: flex;
