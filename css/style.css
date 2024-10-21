@@ -113,7 +113,7 @@ gap: 50px;
    display: flex;
    gap: 30px;
 }
-.perevag-item::before{
+.perevag-item::before {
   display: block;
   content: "";
   width: 270px;
@@ -122,8 +122,20 @@ gap: 50px;
   background: #F5F4FA;
   margin-bottom: 30px;
   background-image: url(../img/antenna.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: contain;
+}
+.perevag-item:nth-child(2)::before {
+  background-image: url(../img/clock.png); 
+}
+
+.perevag-item:nth-child(3)::before {
+  background-image: url(../img/diagram.jpg); 
+}
+
+.perevag-item:nth-child(4)::before {
+  background-image: url(../img/astronaut.jpg); 
 }
 .perevag-caption {
   color: var(--text-color);
