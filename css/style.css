@@ -135,7 +135,7 @@ gap: 50px;
 }
 
 .perevag-item:nth-child(4)::before {
-  background-image: url(../img/astronaut.jpg); 
+  background-image: url(../img/astronaut.png); 
 }
 .perevag-caption {
   color: var(--text-color);
