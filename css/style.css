@@ -321,8 +321,10 @@ letter-spacing: 0.42px;
     gap: 8px;
 }
 .button-btn{
-  width: 125px;
-  height: 38px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
   color:var(--text-color);
   text-align: center;
   font-size: 16px;
@@ -353,6 +355,7 @@ letter-spacing: 0.42px;
   text-align: center;
   font-size: 44px;
   font-weight: 500;
+  padding-top: 4px;
   line-height: 1.7;
   letter-spacing: 0.48px;
 }
