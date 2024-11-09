@@ -306,7 +306,7 @@ letter-spacing: 0.42px;
 
 .card{
   padding-top: 94px;
-  padding-bottom: 94px; 
+  padding-bottom: 94px;
 }
 .button-list{
   display: flex;
@@ -356,6 +356,7 @@ letter-spacing: 0.42px;
   font-size: 44px;
   font-weight: 500;
   padding-top: 4px;
+  padding-bottom: 4px;
   line-height: 1.7;
   letter-spacing: 0.48px;
 }
@@ -373,16 +374,14 @@ letter-spacing: 0.42px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.62x;
-  /* 162.5% */
+  margin-bottom: 20px;
   outline: 1px solid red;
-  letter-spacing: 0.48px;
-  flex-basis: calc((100% - 60%) /3 );
-  
+  outline: 1px solid var(--border);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .gero-title {
   color: var(--happy-text);
-
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
